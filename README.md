@@ -1,0 +1,1 @@
+Easily create a Jinja2 project from this template.
