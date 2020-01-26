@@ -2,7 +2,7 @@ import jinja2
 import yaml
 
 # Where's the folder with my templates
-template_loader = jinja2.FileSystemLoader(searchpath="./templates")
+template_loader = jinja2.FileSystemLoader(searchpath="./{{cookiecutter.dir_template}}")
 template_env = jinja2.Environment(loader=template_loader)
 
 # Which file is my template
