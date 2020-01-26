@@ -1,8 +1,9 @@
 {
-    "dir_output": "",
-    "dir_template": "",
-    "output_file": "",
-    "template_file": "",
-    "python_file": "",
-    "variables_file": ""
+    "project_name": "jinja2",
+    "dir_output": "output",
+    "dir_template": "templates",
+    "output_file": "output",
+    "template_file": "template",
+    "python_file": "run",
+    "variables_file": "variables"
 }
