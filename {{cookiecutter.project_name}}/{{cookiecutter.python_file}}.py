@@ -6,8 +6,8 @@ template_loader = jinja2.FileSystemLoader(searchpath="./{{cookiecutter.dir_templ
 template_env = jinja2.Environment(loader=template_loader)
 
 # Which file is my template
-{{template_file}} = "{{cookiecutter.template_file}}.tpl"
-template = template_env.get_template({{template_file}})
+{{cookiecutter.template_file}} = "{{cookiecutter.template_file}}.tpl"
+template = template_env.get_template({{cookiecutter.template_file}})
 
 # Loading my variables, stored in a YAML file
 with open("{{cookiecutter.variables_file}}.yaml", 'r') as variables_file:
