@@ -22,5 +22,5 @@ with open("{{cookiecutter.variables_file}}.yaml", 'r') as variables_file:
 
 # Saving the output in a text file
 # Content of the file gets removed every time. Then content is added.
-with open("./outputs/{{cookiecutter.output_file}}.txt", "w") as output_file:
+with open("./{{cookiecutter.output_dir}}/{{cookiecutter.output_file}}.txt", "w") as output_file:
     print(outputText, file=output_file)
