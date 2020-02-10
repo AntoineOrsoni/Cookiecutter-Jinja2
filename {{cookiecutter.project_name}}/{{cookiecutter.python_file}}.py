@@ -16,9 +16,7 @@ with open("{{cookiecutter.variables_file}}.yaml", 'r') as variables_file:
     outputText = ""
     # Generating the output for BundleEthernet interfaces
     for element in range(len(variables)):
-        # TODO
-        # outputText += template.render(var1 = "foo", var2 = "bar")
-        outputText += template.render()
+        outputText += template.render(variables=variables)
 
 # Saving the output in a text file
 # Content of the file gets removed every time. Then content is added.
