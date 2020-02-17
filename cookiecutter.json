@@ -1,7 +1,7 @@
 {
     "project_name": "jinja2",
     "output_dir": "output",
-    "dir_template": "templates",
+    "template_dir": "templates",
     "output_file": "output",
     "template_file": "template",
     "python_file": "run",
