@@ -5,7 +5,7 @@ import yaml
 template_loader = jinja2.FileSystemLoader(searchpath="./{{cookiecutter.template_dir}}")
 
 # Instance of the Environment class. Gives the loader (above), optionally parameters like
-# block strings '{% %}', variable strings etc.
+# block strings, variable strings etc.
 template_env = jinja2.Environment(loader=template_loader)
 
 # Which file is my template
